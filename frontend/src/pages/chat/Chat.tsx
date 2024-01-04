@@ -586,7 +586,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src="https://sdiaitestdata.blob.core.windows.net/system/ntt.jpg?sp=r&st=2024-01-04T08:58:05Z&se=2099-01-04T16:58:05Z&sv=2022-11-02&sr=b&sig=TnRKqFKf8cnTSkJOCWS5FIeW%2BaTaF%2FFNpiuTLYaXxj4%3D"
+                                    src={Azure}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
